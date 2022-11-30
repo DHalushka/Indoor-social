@@ -38,7 +38,7 @@
                         <p class="text-muted">@user</p>
                     </div>
                 </a>
-                <!--SIDEBAR-->
+                <!------------------------SIDEBAR------------------------->
                 <div class="sidebar">
                     <a class="menu-item active">
                         <span><i class="uil uil-home"></i></span><h3>Home</h3>
@@ -48,7 +48,7 @@
                     </a>
                     <a class="menu-item" id="notifications">
                         <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span><h3>Notifications</h3>
-                        <!--NOTIFICATION POPUP-->
+                        <!----------------NOTIFICATION POPUP---------------->
                         <div class="notification-popup">
                             <div>
                                 <div class="profile-photo">
@@ -122,16 +122,319 @@
                         <span class="icon"><i class="uil uil-setting"></i></span><h3>Settings</h3>
                     </a>
                 </div>
+                <!--------------------END OF SIDEBAR---------------------->
+
                 <label for="create-post" class="btn btn-primary">Create Post</label>
             </div>
+            <!----------------------------------END OF LEFT--------------------------------->
+            
+            
+            
+            <!--========================== MIDDILE =========================================-->
             <div class="middle">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quod? Assumenda porro minima ex deserunt possimus dolor inventore praesentium molestiae fugit velit suscipit sapiente maxime beatae, nihil quas quibusdam laudantium saepe. Neque, dicta. Fugiat beatae odit cupiditate magnam hic nobis deleniti enim porro dolore dolores minima alias cumque est a dolorem facere dicta, nemo delectus vitae? In placeat vitae sequi. Eligendi maiores est dolorem dicta! Ad commodi veritatis esse repellendus nam cupiditate est numquam ipsam, odio dolore provident laboriosam quidem eos ipsum dolorem quaerat sit illum natus atque dignissimos iure voluptas adipisci voluptatibus. Nostrum illum, molestiae commodi aspernatur qui reiciendis magni maxime eius hic ad aperiam dolorem, totam velit nisi corporis officiis deserunt voluptate molestias, veniam sequi fugiat? Inventore labore quis, quod quibusdam deserunt eum numquam odio molestiae tenetur dolores ad perspiciatis necessitatibus esse, temporibus sunt amet architecto consequuntur? Aspernatur porro error totam laborum facere debitis id, provident nemo fuga voluptatum quos incidunt tempore aliquam alias rerum distinctio suscipit odit modi quod assumenda possimus! Ullam magni accusamus culpa ipsum quisquam consectetur dolorum facilis similique saepe quidem in suscipit perspiciatis, obcaecati quas nihil harum dicta inventore quasi voluptatem. Praesentium nam molestiae accusamus possimus, aliquid iste laborum laudantium inventore culpa, eaque ut.
+                <!------------------------------STORIES----------------------------->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/img/profile-1.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/img/profile-11.webp" alt="">
+                        </div>
+                        <p class="name">Lila James</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/img/profile-12.jpg" alt="">
+                        </div>
+                        <p class="name">Winnie Hale</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/img/profile-13.jpg" alt="">
+                        </div>
+                        <p class="name">Daniel Redcliff</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/img/profile-19.webp" alt="">
+                        </div>
+                        <p class="name">Jane Doe</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/img/profile-18.webp" alt="">
+                        </div>
+                        <p class="name">Mickael Scott</p>
+                    </div>
+                </div>
+                <!-------------------------END OF STORIES ------------------------>
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="/img/profile-1.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, User?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                <!------------------------FEEDS------------------------>
+                <div class="feeds">
+
+                    <!------------------------ FEED #1 ------------------------>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/img/profile-2.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Lana Rose</h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>                                
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="/img/feed-1.png" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/img/profile-7.jpg" alt=""></span>
+                            <span><img src="/img/profile-4.webp" alt=""></span>
+                            <span><img src="/img/profile-5.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest Achiever</b> and <b>2.323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose </b>Lorem ipsum, dolor sit amet consectetur niam praesentium <span class="hashtag">#review</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+
+                    <!------------------------ FEED #2 ------------------------>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/img/profile-4.webp" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Benjamin Dwayen</h3>
+                                    <small>Glasgo, 30 MINUTES AGO</small>
+                                </div>                                
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="/img/feed-2.webp" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/img/profile-8.jpg" alt=""></span>
+                            <span><img src="/img/profile-2.jpg" alt=""></span>
+                            <span><img src="/img/profile-1.jpg" alt=""></span>
+                            <p>Liked by <b>Diana Asamond</b> and <b>2.204 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Benjamin Dwayen </b> Lorem ipsum, dolor sit amet consectetur niam praesentium <span class="hashtag">#newrelease</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 253 comments</div>
+                    </div>
+
+                    <!------------------------ FEED #3 ------------------------>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/img/profile-5.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Mallik Berrye</h3>
+                                    <small>Ghrana, 1 MINUTE AGO</small>
+                                </div>                                
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="/img/feed-3.webp" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/img/profile-7.jpg" alt=""></span>
+                            <span><img src="/img/profile-8.jpg" alt=""></span>
+                            <span><img src="/img/profile-9.jpg" alt=""></span>
+                            <p>Liked by <b>Hajia Bintu</b> and <b>1.253 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Mallik Berrye </b> Lorem ipsum, dolor sit amet consectetur niam praesentium <span class="hashtag">#gameplay</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 864 comments</div>
+                    </div>
+
+                    <!------------------------ FEED #4 ------------------------>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/img/profile-11.webp" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Mike Rabek</h3>
+                                    <small>Grece, 1 HOUR AGO</small>
+                                </div>                                
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="/img/feed-4.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/img/profile-12.jpg" alt=""></span>
+                            <span><img src="/img/profile-13.jpg" alt=""></span>
+                            <span><img src="/img/profile-18.webp" alt=""></span>
+                            <p>Liked by <b>First Player</b> and <b>1.286 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Mike Rabek </b> Lorem ipsum, dolor sit amet consectetur niam praesentium <span class="hashtag">#review</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 25 comments</div>
+                    </div>
+
+                    <!------------------------ FEED #5 ------------------------>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/img/profile-2.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Jake Bond</h3>
+                                    <small>Moscow, 2 HORS AGO</small>
+                                </div>                                
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="/img/feed-5.png" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/img/profile-7.jpg" alt=""></span>
+                            <span><img src="/img/profile-4.webp" alt=""></span>
+                            <span><img src="/img/profile-5.jpg" alt=""></span>
+                            <p>Liked by <b>Gemma Addams</b> and <b>2.685 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Jake Bond </b> Lorem ipsum, dolor sit amet consectetur niam praesentium <span class="hashtag">#newrelease</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 225 comments</div>
+                    </div>
+
+                    <!------------------------ FEED #6 ------------------------>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/img/profile-19.webp" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Lauren Geek</h3>
+                                    <small>London, 2 HOURS AGO</small>
+                                </div>                                
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="/img/feed-6.avif" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/img/profile-20.webp" alt=""></span>
+                            <span><img src="/img/profile-1.jpg" alt=""></span>
+                            <span><img src="/img/profile-2.jpg" alt=""></span>
+                            <p>Liked by <b>Martha Dwight</b> and <b>2.439 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lauren Geek </b> Lorem ipsum, dolor sit amet consectetur niam praesentium <span class="hashtag">#chart</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 125 comments</div>
+                    </div>
+            
+                </div>
             </div>
             <div class="right">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem blanditiis, ullam distinctio ex quasi eaque. Dicta modi dolor doloremque nisi et, nihil nam suscipit unde ipsam nemo, fugit aspernatur culpa rerum quis aliquam ullam non expedita, similique ratione perferendis. Architecto itaque magnam quaerat debitis esse, illum sapiente. Omnis quis distinctio fuga aliquam repudiandae dolore mollitia minima quod? Nostrum velit vel similique atque, iste vero quae amet eveniet! Sapiente architecto asperiores qui quaerat id magnam obcaecati earum amet, vero temporibus, a illo voluptatum sit, optio eum beatae quo fugiat porro. Amet provident obcaecati deserunt dolore error doloribus odit repellendus eligendi omnis.
             </div>
         </div>
     </main>
-    <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"/>
 </body>
 </html>
