@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'CeraPro-Regular';
+	src: url('/fonts/CeraPro-Regular.eot');
+	src: local('☺'), 
+        url('/fonts/CeraPro-Regular.woff') format('woff'), 
+        url('/fonts/CeraPro-Regular.ttf') format('truetype'), 
+        url('/fonts/CeraPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'CeraPro-Medium';
+	src: url('/fonts/CeraPro-Medium.eot');
+	src: local('☺'), 
+        url('/fonts/CeraPro-Medium.woff') format('woff'), 
+        url('/fonts/CeraPro-Medium.ttf') format('truetype'), 
+        url('/fonts/CeraPro-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+@font-face {
+	font-family: 'CeraCompactPro-Regular';
+	src: url('/fonts/CeraCompactPro-Regular.eot');
+	src: local('☺'), 
+        url('/fonts/CeraCompactPro-Regular.woff') format('woff'), 
+        url('/fonts/CeraCompactPro-Regular.ttf') format('truetype'), 
+        url('/fonts/CeraCompactPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'CeraCompactPro-Medium';
+	src: url('/fonts/CeraCompactPro-Medium.eot');
+	src: local('☺'), 
+        url('/fonts/CeraCompactPro-Medium.woff') format('woff'), 
+        url('/fonts/CeraCompactPro-Medium.ttf') format('truetype'), 
+        url('/fonts/CeraCompactPro-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'CeraCompactPro-Light';
+	src: url('/fonts/CeraCompactPro-Light.eot');
+	src: local('☺'), 
+        url('/fonts/CeraCompactPro-Light.woff') format('woff'), 
+        url('/fonts/CeraCompactPro-Light.ttf') format('truetype'), 
+        url('/fonts/CeraCompactPro-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'CeraCompactPro-Bold';
+	src: url('/fonts/CeraCompactPro-Bold.eot');
+	src: local('☺'), 
+        url('/fonts/CeraCompactPro-Bold.woff') format('woff'), 
+        url('/fonts/CeraCompactPro-Bold.ttf') format('truetype'), 
+        url('/fonts/CeraCompactPro-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'CeraCompactPro-Black';
+	src: url('/fonts/CeraCompactPro-Black.eot');
+	src: local('☺'), 
+        url('/fonts/CeraCompactPro-Black.woff') format('woff'), 
+        url('/fonts/CeraCompactPro-Black.ttf') format('truetype'), 
+        url('/fonts/CeraCompactPro-Black.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'MyFont';
+    src: local('☺'), 
+        url('/fonts/myfont-webfont.woff2') format('woff2'),
+        url('/fonts/MyFont.ttf') format('truetype'),
+        url('/fonts/myfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon{
+	font-family: 'MyFont';
+}
