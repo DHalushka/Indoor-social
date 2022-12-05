@@ -134,15 +134,15 @@ colorPalete.forEach(color => {
         changeActiveColorClass();
 
         if(color.classList.contains('color-1')){
-            primaryHue = 252;
+            primaryHue = 330;
         } else if(color.classList.contains('color-2')){
-            primaryHue = 52;
+            primaryHue = 230;
         } else if(color.classList.contains('color-3')){
-            primaryHue = 352;
+            primaryHue = 29;
         } else if(color.classList.contains('color-4')){
-            primaryHue = 152;
+            primaryHue = 130;
         } else if(color.classList.contains('color-5')){
-            primaryHue = 202;
+            primaryHue = 158;
         }
         color.classList.add('active');
 
@@ -154,41 +154,41 @@ colorPalete.forEach(color => {
 
 /** --------------------- BACKGROUND -------------------- */
 
-let lightColorLightness;
+let backColorLightness;
 let whitetColorLightness;
 let darkColorLightness;
 
 const changeBg = () => {
-    root.style.setProperty('--light-color-lightness' ,lightColorLightness);
+    root.style.setProperty('--back-color-lightness' ,backColorLightness);
     root.style.setProperty('--dark-color-lightness' ,darkColorLightness);
     root.style.setProperty('--white-color-lightness' ,whitetColorLightness);
 }
 
-bg1.addEventListener('click', () => {
-    // add active class
-    bg1.classList.add('active');
-    // remove active class from others
-    bg2.classList.remove('active');
-    bg3.classList.remove('active');
-    //remove customized changes from local storage
-    window.location.reload();
-});
 bg2.addEventListener('click', () => {
-    darkColorLightness = '95%';
-    whitetColorLightness = '20%';
-    lightColorLightness = '15%';
-
     // add active class
     bg2.classList.add('active');
     // remove active class from others
     bg1.classList.remove('active');
+    bg3.classList.remove('active');
+    //remove customized changes from local storage
+    window.location.reload();
+});
+bg1.addEventListener('click', () => {
+    darkColorLightness = '15%';
+    whitetColorLightness = '48%';
+    backColorLightness = '84%';
+
+    // add active class
+    bg1.classList.add('active');
+    // remove active class from others
+    bg2.classList.remove('active');
     bg3.classList.remove('active');
     changeBg();
 });
 bg3.addEventListener('click', () => {
     darkColorLightness = '95%';
     whitetColorLightness = '10%';
-    lightColorLightness = '0%';
+    backColorLightness = '0%';
 
     // add active class
     bg3.classList.add('active');
